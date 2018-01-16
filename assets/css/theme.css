@@ -1,0 +1,158 @@
+body {
+	font-family: Montserrat, Helvetica;
+}
+
+.nav {
+	background-color: #B0C9C4;
+	padding: 10px;
+}
+
+.menu {
+	padding-top: 13px;
+}
+
+.menu > li {
+	padding: 10px;
+	transition: 0.3s color ease-in-out;
+	-webkit-transition: 0.3s color ease-in-out;
+}
+
+.menu > li:hover {
+	color: white;
+	transition: 0.3s color ease-in-out;
+	-webkit-transition: 0.3s color ease-in-out;
+
+}
+
+header {
+	background-image: url('../images/cactusrepeat.jpg');
+	background-color: #f4f4f6;
+	background-repeat: no-repeat;
+	padding-top: 30px;
+	height: 500px;
+	width: 100%;
+	background-position: center center;
+	background-size: cover;
+}
+
+.header-title {
+	color: black;
+	font-size: 65px;	
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.header-subtitle {
+	color: black;
+	font-size: 27px;	
+	text-transform: uppercase;
+	text-align: center;
+	cursor: pointer;
+}
+
+.call-to-action {
+	background-color: #B0C9C4;
+	width: 100%;
+	height: 200px;
+	overflow: auto;
+}
+
+.section-title, .testimonials-title {
+	text-transform: uppercase;
+	font-size: 27px;
+}
+
+.intro {
+	float: left;
+	width: 50%;
+}
+
+.intro-right {
+	float: left;
+	width: 50%;
+}
+
+.call-button {
+	color: black;
+	font-size: 27px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 5px solid black;
+	padding: 10px 30px;
+}
+
+.intro, .testimonials p {
+	color: white;
+	font-size: 20px;
+	margin-top: 10px;
+	line-height: 40px;
+}
+
+.column {
+	width: 50%;
+	float: left;
+	transform: scale(.9);
+	-webkit-transform: scale(.9);
+	-moz-transform: scale(.9);
+	-o-transform: scale(.9);
+}
+
+.column img {
+	display: block;
+	max-width: 80%
+	margin: auto;
+	opacity: .75;
+	padding-bottom: 40px;
+	transition: 0.3s all ease-in-out 0s;
+	-webkit-transition: 0.3s all ease-in-out 0s;
+	-moz-transition: 0.3s all ease-in-out 0s;
+	-o-transition: 0.3s all ease-in-out 0s;
+}
+
+.column img:hover {
+	opacity: 1;
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transition: 0.3s all ease-in-out 0s;
+	-webkit-transition: 0.3s all ease-in-out 0s;
+	-moz-transition: 0.3s all ease-in-out 0s;
+	-o-transition: 0.3s all ease-in-out 0s;
+}
+
+.column img.bigger {
+		opacity: 1;
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+}
+
+.images {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.testimonials {
+	background-color: #B0C9C4;
+	width: 100%;
+	height: 200px;
+	overflow: auto;	
+}
+
+.map {
+	background-image: url('../images/world.png');
+	background-color: #f4f4f6;
+	background-repeat: no-repeat;
+	padding-top: 30px;
+	height: 500px;
+	width: 100%;
+	background-position: center center;
+	background-size: cover;
+}
+
+footer {
+	background-color: #B0C9C4;
+	padding: 10px;
+}
